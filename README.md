@@ -27,7 +27,7 @@ This repository is a tutorial for a first contact with the Sinatra gem, a DSL fo
 1. Create a new file named `app.rb` at the directory root which will be the Sinatra app main file, the entry point, the one we want to run
 2. Copy-paste this boilerplate to your `app.rb` file:
 
-    ```
+    ```ruby
     require "sinatra"
     require "sinatra/reloader" if development?
     require "pry-byebug"
