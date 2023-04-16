@@ -7,7 +7,7 @@ This repository is a tutorial for a first contact with the Sinatra gem, a DSL fo
 1. Create a new folder to put your Sinatra app in: `mkdir ~/code/$GITHUB_USERNAME/cookbook-sinatra` and `cd ~/code/$GITHUB_USERNAME/cookbook-sinatra`
 2. Create a `Gemfile` to specify which gems you'd like to use in this project: `touch Gemfile`
 3. Add the following code to your `Gemfile`:
-    ```
+    ```ruby
     source "https://rubygems.org"
 
     gem "better_errors"
